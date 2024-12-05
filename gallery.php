@@ -265,6 +265,19 @@
                                         <li class="nav-item">
                                             <a class="nav-link" href="contact.html">Contact</a>
                                         </li>
+
+
+                                    <li class="nav-item"
+                                        style="background-color: white;
+                                        border-radius: 50px;
+                                        width: 100px;
+                                        "
+                                        >
+                                            <a class="nav-link" style="color: black; 
+                                            text-align: center; 
+                                            " href="https://app.edusuite.ng/roninal/login">Portal</a>
+                                        </li>
+
                                     </ul>
                                 <!-- <a href="#" class="ms-2 btn btn-white md-mx-none rounded-pill order-1">Portal</a> -->
                                 </div>
@@ -345,7 +358,7 @@
                                         <ul>
                                             <li><a href="#">Privacy statement</a></li>
                                             <!-- <li><a href="#">Modern slavery statement</a></li> -->
-                                            <li><a href="#">Roninal's past & present</a></li>
+                                            <li><a href="index.html">Roninal's past & present</a></li>
                                         </ul>
                                     </div>
                                     <div class="footer-widget footer-nav mb-5">
@@ -361,7 +374,7 @@
                                     <div class="footer-widget footer-nav mb-5">
                                         <h4 class="widget-title mb-4">Quick Links</h4>
                                         <ul>
-                                            <li><a href="#">Portal login</a></li>
+                                            <li><a href="https://app.edusuite.ng/roninal/login">Portal login</a></li>
                                             <li><a href="#">Download Resistration form</a></li>
                                             <li><a href="gallery.php">Gallery</a></li>
                                         </ul>
@@ -379,7 +392,7 @@
                                     <div class="footer-widget footer-nav mb-5">
                                         <h4 class="widget-title mb-4">Locations</h4>
                                         <ul>
-                                            <li><a href="">Nigeria</a></li>
+                                            <li><a href="contact.html">Nigeria</a></li>
                                         </ul>
                                     </div>
                                 </div>
