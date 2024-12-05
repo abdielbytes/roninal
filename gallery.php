@@ -266,7 +266,7 @@
                                             <a class="nav-link" href="contact.html">Contact</a>
                                         </li>
                                     </ul>
-                                    <a href="https://app.edusuite.ng/roninal/login" class="ms-2 btn btn-white md-mx-none rounded-pill order-1">Portal</a>
+                                <!-- <a href="#" class="ms-2 btn btn-white md-mx-none rounded-pill order-1">Portal</a> -->
                                 </div>
                             </nav>
                         </div>
