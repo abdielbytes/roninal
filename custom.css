@@ -1,30 +1,13 @@
-.nav-link {
-    color: #fff; /* Default color */
-    transition: color 0.3s ease; /* Smooth transition effect */
-}
 
-.nav-link:hover, 
-.nav-link:focus, 
-.nav-link.active {
-    color: black; /* Change color on hover, focus, or active state */
-    text-decoration: none; /* Remove underline if present */
-}
-
-/* For the dropdown items */
-.dropdown-menu .dropdown-item:hover, 
-.dropdown-menu .dropdown-item:focus, 
-.dropdown-menu .dropdown-item.active {
-    color: black;
-    background-color: transparent; /* Optional: keep the background transparent */
+.nav-link:not(.buttoneier):hover,
+.nav-link:not(.buttoneier):focus,
+.nav-link:not(.buttoneier).active {
+    background-color: rgb(73, 72, 72);
     text-decoration: none;
-}
-
-/* For the "Portal" link with custom styling */
-.nav-item[style*="background-color: white"] .nav-link {
-    color: black;
-}
-
-.nav-item[style*="background-color: white"] .nav-link:hover {
-    color: #000;
-    text-decoration: none;
+    height: 50px;
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    border-radius: 20px;
+    width: 100px;
 }

@@ -34,6 +34,21 @@
     <link rel="stylesheet" href="custom.css">
 </head>
 
+<style>
+
+    .nav-link:not(.buttoneier):hover,
+        .nav-link:not(.buttoneier):focus,
+        .nav-link:not(.buttoneier).active {
+            background-color: rgb(73, 72, 72);
+            text-decoration: none;
+            height: 50px;
+            display: flex; 
+            align-items: center;
+            justify-content: center; 
+            border-radius: 20px;
+            width: 100px;
+        }
+    </style>
 <body>
 
     <!--<div class="preloader">
@@ -196,7 +211,7 @@
                                         </li>
 
 
-                                        <li class="nav-item"
+                                        <li class="nav-item buttoneier"
                                         style="background-color: white;
                                         border-radius: 50px;
                                         width: 100px;
