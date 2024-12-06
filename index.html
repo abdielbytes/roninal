@@ -38,6 +38,20 @@
     p{
         text-align: left;
     }
+    .nav-link:not(.buttoneier):hover,
+    .nav-link:not(.buttoneier):focus,
+    .nav-link:not(.buttoneier).active {
+        background-color: rgb(73, 72, 72);
+        text-decoration: none;
+        height: 50px;
+        display: flex; 
+        align-items: center;
+        justify-content: center; 
+        border-radius: 20px;
+        width: 100px;
+    }
+
+    
 </style>
 
 <body >
@@ -48,6 +62,80 @@
 
     <div id="page_wrapper" class="bg-light">
         <!--============== Header Section Start ==============-->
+
+        <header class="nav-on-banner bg-transparent fixed-bg-dark shadow-none md-bg-secondary">
+
+            <div class="main-nav py-2 xs-p-0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <nav class="navbar navbar-expand-lg nav-white nav-primary-hover nav-line-active">
+                                <a class="navbar-brand order-2 order-lg-2" href="#">
+                                    <img class="nav-logo" width="50px" height="50px" src="assets/school/logonullbg.png" alt="Image not found!">
+                                </a>
+                                <button class="navbar-toggler order-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon flaticon-menu flat-small text-primary"></span>
+                                </button>
+                                <div class="collapse navbar-collapse order-3 order-lg-1" id="navbarSupportedContent">
+                                    <ul class="navbar-nav me-auto order-lg-3">
+                                        <li class="nav-item">
+                                            <a class="nav-link dropdown-toggle" href="index.html" style="color: #fff; transition: color 0.3s ease;">Home</a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" style="color: #fff; transition: color 0.3s ease;">About us</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="./our-school.html" style="color: #000; transition: color 0.3s ease;">Our School in Brief</a></li>
+                                                <li><a class="dropdown-item" href="./mission.html" style="color: #000; transition: color 0.3s ease;">Mission, Vision and Values</a></li>
+                                                <li><a class="dropdown-item" href="./staff.html" style="color: #000; transition: color 0.3s ease;">Staff</a></li>
+                                                <li><a class="dropdown-item" href="./facilities.html" style="color: #000; transition: color 0.3s ease;">Facilities</a></li>
+                                                <li><a class="dropdown-item" href="./policy.html" style="color: #000; transition: color 0.3s ease;">Learning Policy</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropdown mega-dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" style="color: #fff; transition: color 0.3s ease;">Admissions</a>
+                                            <ul class="dropdown-menu mega-dropdown-menu">
+                                                <li class="mega-container">
+                                                    <div class="row row-cols-lg-4 row-cols-1">
+                                                        <div class="col">
+                                                            <ul>
+                                                                <li><a class="dropdown-item" href="index.html" style="color: #000; transition: color 0.3s ease;">Why Choose Us</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="col">
+                                                            <ul>
+                                                                <li><a class="dropdown-item" href="./tuition.html" style="color: #000; transition: color 0.3s ease;">Tuition and Fees</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="col">
+                                                            <ul>
+                                                                <li><a class="dropdown-item" href="./calender.html" style="color: #000; transition: color 0.3s ease;">School Calendar</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" style="color: #fff; transition: color 0.3s ease;">Academics</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="./calender.html" style="color: #000; transition: color 0.3s ease;">Calendar</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="contact.html" style="color: #fff; transition: color 0.3s ease;">Contact</a>
+                                        </li>
+                                        <li class="nav-item" style="background-color: white; border-radius: 50px; width: 100px;">
+                                            <a class="nav-link buttoneier" style="color: black; text-align: center; transition: color 0.3s ease;" href="https://app.edusuite.ng/roninal/login">Portal</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+<!--         
         <header class="nav-on-banner bg-transparent fixed-bg-dark shadow-none md-bg-secondary">
             <div class="main-nav py-2 xs-p-0">
                 <div class="container">
@@ -132,20 +220,14 @@
                                         </li>
                                         
                                     </ul>
-                                    <!-- <style>
-
-                                        /* .portal-link {
-                                            display: block;
-                                        } */
-                                    </style> -->
-                                    <!-- <a href="https://app.edusuite.ng/roninal/login" class="ms-2 btn btn-white md-mx-none rounded-pill order-1 portal-link">Portal</a> -->
+                            
                                 </div>
                             </nav>
                         </div>
                     </div>
                 </div>
             </div>
-        </header>
+        </header> -->
         <!--============== Header Section End ==============-->
 
         <!--============== Slider Area Start ==============-->
